@@ -10,14 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:blahajcodes.helloWorld"
+		"onCommand:blahajcodes.Pride",
+		"onCommand:blahajcodes.web"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "blahajcodes.helloWorld",
-				"title": "Hello World"
+				"command": "blahajcodes.Pride",
+				"category": "Blahaj",
+				"title": "Pride"
+			},
+			{
+				"command": "blahajcodes.web",
+				"category": "Blahaj",
+				"title": "Web"
 			}
 		]
 	},
